@@ -12,3 +12,9 @@ group :test do
   gem 'rspec'
   gem 'rack-test'
 end
+
+group :test, :deveopment do
+  gem 'rb-fsevent'
+  gem 'growl'
+end
+  
